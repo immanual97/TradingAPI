@@ -1,0 +1,32 @@
+<div class="shade">
+    <div class="container">
+        <!--
+        <h2 style="color:rgb(77, 89, 255);margin-bottom:30px;text-align:center;">User Data</h2>
+        
+        <input type="text" class="form-control" placeholder="Name" style="width: 30%;margin-left:10%;" [(ngModel)]="name" required/>
+        <br>
+        <input type="date" class="form-control" placeholder="Date" style="width: 30%;margin-left:10%;" [(ngModel)]="date">
+        <br>
+        <input type="email" name="email" class="form-control" placeholder="Email" style="width: 30%;margin-left:10%;" [(ngModel)]="email" >
+        <br>
+        
+        <br>
+        <input type="number" class="form-control" placeholder="Income" style="width: 30%;margin-left:10%;" [(ngModel)]="income">
+        <br>
+        <input type="text" class="form-control" placeholder="IP Address" style="width: 30%;margin-left:10%;" [(ngModel)]="ipaddress">
+        
+        <button type="button" class="btn btn-primary" style="margin-left:70%;top:0px;" name="post" (click)="post()">Submit</button>
+
+        <br>
+        <button class="btn btn-primary" ><a style="color: white; text-decoration: none;" routerLink="/get" >View</a></button>
+    -->
+    
+    <h2 style="color:rgb(77, 89, 255);margin-bottom:30px;text-align:center;">Trading Data</h2>
+    <form>
+    <input type="date" class="form-control" placeholder="Date" style="width: 30%;margin-left:10%;" name="date">
+
+    <button type="button" class="btn btn-primary" style="margin-left:70%;top:0px;" name="post" (click)="searchClick(date)">Submit</button>
+    </form>
+    </div>
+
+</div>

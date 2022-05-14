@@ -11,3 +11,4 @@ class Trade(models.Model):
     close=models.CharField(max_length=25)
     adjclose=models.CharField(max_length=25)
     volume=models.CharField(max_length=25)
+    brands=models.CharField(max_length=25)
